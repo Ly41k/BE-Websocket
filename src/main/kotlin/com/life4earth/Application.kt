@@ -1,6 +1,7 @@
 package com.life4earth
 
 import com.life4earth.feature.chat.configureChatsRouting
+import com.life4earth.feature.message.configureMessageRouting
 import com.life4earth.plugins.configureRouting
 import com.life4earth.plugins.configureSerialization
 import com.life4earth.plugins.configureSockets
@@ -22,4 +23,5 @@ fun Application.module() {
     configureRouting()
     configureSerialization()
     configureChatsRouting()
+    configureMessageRouting()
 }
